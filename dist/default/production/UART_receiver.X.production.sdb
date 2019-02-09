@@ -1,0 +1,270 @@
+[p LITE_MODE AUTOSTATIC LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F4550 ]
+[d frameptr 4065 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+"86 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+"54 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 3 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 3 0 ]
+"20 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 3 0 ]
+"10 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 3 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 3 0 ]
+"11 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 3 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 3 0 ]
+"15 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"30 E:\EmbeddedSystemProjects\UART_receiver.X\main.c
+[v _ISR ISR `II(v  1 e 1 0 ]
+"43
+[v _main main `(v  1 e 1 0 ]
+"64
+[v _initUART_rx initUART_rx `(v  1 e 1 0 ]
+"84
+[v _FOSC FOSC `(v  1 e 1 0 ]
+"91
+[v _LCD_Init LCD_Init `(v  1 e 1 0 ]
+"102
+[v _LCD_Clear LCD_Clear `(v  1 e 1 0 ]
+[v i2_LCD_Clear LCD_Clear `(v  1 e 1 0 ]
+"107
+[v _LCD_Command LCD_Command `(v  1 e 1 0 ]
+[v i2_LCD_Command LCD_Command `(v  1 e 1 0 ]
+"117
+[v _LCD_Char LCD_Char `(v  1 e 1 0 ]
+[v i2_LCD_Char LCD_Char `(v  1 e 1 0 ]
+"127
+[v _LCD_String LCD_String `(v  1 e 1 0 ]
+[v i2_LCD_String LCD_String `(v  1 e 1 0 ]
+"136
+[v _LCD_String_xy LCD_String_xy `(v  1 e 1 0 ]
+[v i2_LCD_String_xy LCD_String_xy `(v  1 e 1 0 ]
+"152
+[v _MSdelay MSdelay `(v  1 e 1 0 ]
+[v i2_MSdelay MSdelay `(v  1 e 1 0 ]
+"159
+[v _readBuffer readBuffer `(v  1 e 1 0 ]
+"251
+[v _screenFormat screenFormat `(v  1 e 1 0 ]
+"264
+[v _reset reset `(v  1 e 1 0 ]
+"3261 C:\Program Files (x86)\Microchip\xc8\v1.45\include\pic18f4550.h
+[v _LATD LATD `VEuc  1 e 1 @3980 ]
+"3845
+[v _TRISC TRISC `VEuc  1 e 1 @3988 ]
+[s S64 . 1 `uc 1 TRISC0 1 0 :1:0 
+`uc 1 TRISC1 1 0 :1:1 
+`uc 1 TRISC2 1 0 :1:2 
+`uc 1 . 1 0 :3:3 
+`uc 1 TRISC6 1 0 :1:6 
+`uc 1 TRISC7 1 0 :1:7 
+]
+"3873
+[s S71 . 1 `uc 1 RC0 1 0 :1:0 
+`uc 1 RC1 1 0 :1:1 
+`uc 1 RC2 1 0 :1:2 
+`uc 1 . 1 0 :3:3 
+`uc 1 RC6 1 0 :1:6 
+`uc 1 RC7 1 0 :1:7 
+]
+[u S78 . 1 `S64 1 . 1 0 `S71 1 . 1 0 ]
+[v _TRISCbits TRISCbits `VES78  1 e 1 @3988 ]
+"3999
+[v _TRISD TRISD `VEuc  1 e 1 @3989 ]
+"5412
+[v _RCREG RCREG `VEuc  1 e 1 @4014 ]
+"5424
+[v _SPBRG SPBRG `VEuc  1 e 1 @4015 ]
+"8979
+[v _BRGH BRGH `VEb  1 e 0 @32098 ]
+"9099
+[v _CREN CREN `VEb  1 e 0 @32092 ]
+"9459
+[v _GIE GIE `VEb  1 e 0 @32663 ]
+"9559
+[v _IRCF0 IRCF0 `VEb  1 e 0 @32412 ]
+"9561
+[v _IRCF1 IRCF1 `VEb  1 e 0 @32413 ]
+"9563
+[v _IRCF2 IRCF2 `VEb  1 e 0 @32414 ]
+"9613
+[v _LATC0 LATC0 `VEb  1 e 0 @31832 ]
+"9615
+[v _LATC1 LATC1 `VEb  1 e 0 @31833 ]
+"9811
+[v _PEIE PEIE `VEb  1 e 0 @32662 ]
+"9925
+[v _RCIE RCIE `VEb  1 e 0 @31981 ]
+"9927
+[v _RCIF RCIF `VEb  1 e 0 @31989 ]
+"10021
+[v _SPEN SPEN `VEb  1 e 0 @32095 ]
+"10105
+[v _SYNC SYNC `VEb  1 e 0 @32100 ]
+"24 E:\EmbeddedSystemProjects\UART_receiver.X\main.c
+[v _UART_Buffer UART_Buffer `[100]uc  1 e 100 0 ]
+"26
+[v _pos pos `s  1 e 2 0 ]
+"27
+[v _row row `s  1 e 2 0 ]
+"28
+[v _index index `s  1 e 2 0 ]
+"43
+[v _main main `(v  1 e 1 0 ]
+{
+"60
+} 0
+"64
+[v _initUART_rx initUART_rx `(v  1 e 1 0 ]
+{
+"82
+} 0
+"136
+[v _LCD_String_xy LCD_String_xy `(v  1 e 1 0 ]
+{
+"137
+[v LCD_String_xy@row row `uc  1 a 1 wreg ]
+"138
+[v LCD_String_xy@location location `uc  1 a 1 48 ]
+"137
+[v LCD_String_xy@row row `uc  1 a 1 wreg ]
+[v LCD_String_xy@pos pos `uc  1 p 1 44 ]
+"136
+[v LCD_String_xy@msg msg `*.25Cuc  1 p 2 45 ]
+"138
+[v LCD_String_xy@row row `uc  1 a 1 47 ]
+"150
+} 0
+"127
+[v _LCD_String LCD_String `(v  1 e 1 0 ]
+{
+[v LCD_String@msg msg `*.25Cuc  1 p 2 42 ]
+"134
+} 0
+"117
+[v _LCD_Char LCD_Char `(v  1 e 1 0 ]
+{
+[v LCD_Char@dat dat `uc  1 a 1 wreg ]
+[v LCD_Char@dat dat `uc  1 a 1 wreg ]
+"119
+[v LCD_Char@dat dat `uc  1 a 1 41 ]
+"125
+} 0
+"91
+[v _LCD_Init LCD_Init `(v  1 e 1 0 ]
+{
+"100
+} 0
+"102
+[v _LCD_Clear LCD_Clear `(v  1 e 1 0 ]
+{
+"105
+} 0
+"107
+[v _LCD_Command LCD_Command `(v  1 e 1 0 ]
+{
+[v LCD_Command@cmd cmd `uc  1 a 1 wreg ]
+[v LCD_Command@cmd cmd `uc  1 a 1 wreg ]
+"109
+[v LCD_Command@cmd cmd `uc  1 a 1 41 ]
+"115
+} 0
+"152
+[v _MSdelay MSdelay `(v  1 e 1 0 ]
+{
+"154
+[v MSdelay@j j `ui  1 a 2 39 ]
+[v MSdelay@i i `ui  1 a 2 37 ]
+"152
+[v MSdelay@val val `ui  1 p 2 35 ]
+"157
+} 0
+"84
+[v _FOSC FOSC `(v  1 e 1 0 ]
+{
+"89
+} 0
+"30
+[v _ISR ISR `II(v  1 e 1 0 ]
+{
+"40
+} 0
+"264
+[v _reset reset `(v  1 e 1 0 ]
+{
+"267
+} 0
+"159
+[v _readBuffer readBuffer `(v  1 e 1 0 ]
+{
+"163
+[v readBuffer@i i `i  1 a 2 15 ]
+"249
+} 0
+"136
+[v i2_LCD_String_xy LCD_String_xy `(v  1 e 1 0 ]
+{
+"137
+[v i2LCD_String_xy@row row `uc  1 a 1 wreg ]
+"136
+[v i2LCD_String_xy@location LCD_String_xy `uc  1 a 1 13 ]
+"137
+[v i2LCD_String_xy@row row `uc  1 a 1 wreg ]
+[v i2LCD_String_xy@pos pos `uc  1 p 1 9 ]
+"136
+[v i2LCD_String_xy@msg msg `*.25Cuc  1 p 2 10 ]
+"138
+[v i2LCD_String_xy@row row `uc  1 a 1 12 ]
+"150
+} 0
+"127
+[v i2_LCD_String LCD_String `(v  1 e 1 0 ]
+{
+[v i2LCD_String@msg msg `*.25Cuc  1 p 2 7 ]
+"134
+} 0
+"117
+[v i2_LCD_Char LCD_Char `(v  1 e 1 0 ]
+{
+[v i2LCD_Char@dat dat `uc  1 a 1 wreg ]
+[v i2LCD_Char@dat dat `uc  1 a 1 wreg ]
+"119
+[v i2LCD_Char@dat dat `uc  1 a 1 6 ]
+"125
+} 0
+"251
+[v _screenFormat screenFormat `(v  1 e 1 0 ]
+{
+"262
+} 0
+"102
+[v i2_LCD_Clear LCD_Clear `(v  1 e 1 0 ]
+{
+"105
+} 0
+"107
+[v i2_LCD_Command LCD_Command `(v  1 e 1 0 ]
+{
+[v i2LCD_Command@cmd cmd `uc  1 a 1 wreg ]
+[v i2LCD_Command@cmd cmd `uc  1 a 1 wreg ]
+"109
+[v i2LCD_Command@cmd cmd `uc  1 a 1 6 ]
+"115
+} 0
+"152
+[v i2_MSdelay MSdelay `(v  1 e 1 0 ]
+{
+[v i2MSdelay@j MSdelay `ui  1 a 2 4 ]
+[v i2MSdelay@i MSdelay `ui  1 a 2 2 ]
+[v i2MSdelay@val val `ui  1 p 2 0 ]
+"157
+} 0
